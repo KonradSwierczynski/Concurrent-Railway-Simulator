@@ -1,0 +1,111 @@
+    protected body taskSwitch is
+        entry Lock(id : in Integer; s : out Switch) when Empty is
+        begin
+            Status := id;
+            Empty := False;
+            s := switch;
+        end Lock;
+
+        entry Unlock(id : in Integer) when not Empty is
+        begin
+            Status := EMPTY;
+            Empty := True;
+        end Unlock;
+
+    end taskSwitch;
+
+    protected body taskLine is
+        entry Lock(id : in Integer; l : out Line) when Empty is
+        begin
+            Status := id;
+            Empty := False;
+            l := line;
+        end Lock;
+
+        entry Unlock(id : in Integer) when not Empty is
+        begin
+            Status := EMPTY;
+            Empty := True;
+        end Unlock;
+
+    end taskLine;
+
+    protected body taskPlatform is
+        entry Lock(id : in Integer; p : out Platform) when Empty is
+        begin
+            Status := id;
+            Empty := False;
+            p := platform;
+        end Lock;
+
+        entry Unlock(id : in Integer) when not Empty is
+        begin
+            Status := EMPTY;
+            Empty := True;
+        end Unlock;
+
+    end taskPlatform;
+
+
+with Ada.Unchecked_Deallocation;
+with Ada.Integer_Text_Io; use Ada.Integer_Text_Io;
+with Ada.Text_Io; use Ada.Text_Io;
+
+procedure Utils is
+
+    EMPTY : constant Integer := -1;
+
+    type IntArray is array(Integer range <>) of Integer;
+
+    type Switch(minUsageTime : Integer) is record
+        id : Integer := 0;
+    end record;
+
+    type Line(lenght, maxSpeed : Integer) is record
+        id : Integer := 0;
+    end record;
+
+    type Platform(minUsageTime : Integer) is record
+        id : Integer := 0;
+    end record;
+
+    type Train(id, maxSpeed, maxCapacity, routeSize : Integer) is record
+        route : IntArray(1..routeSize);
+    end record;
+
+    protected type taskSwitch(switch: Switch) is
+        entry Lock(id : in Integer; s : out Switch);
+        entry Unlock(id : in Integer);
+        private
+        Empty : Boolean := True;
+        Status : Integer := -1;
+    end taskSwitch;
+
+    protected type taskLine(line : Line) is
+        entry Lock(id : in Integer; l : out Line);
+        entry Unlock(id : in Integer);
+        private
+        Empty : Boolean := True;
+    end taskLine;
+
+    protected type taskPlatform(platform : Platform) is
+        entry Lock(id : in Integer; p : out Platform);
+        entry Unlock(id : in Integer);
+        private
+        Empty : Boolean := True;
+    end taskPlatform;
+
+    type PtaskSwitch is access taskSwitch;
+    type PtaskLine is access taskLine;
+    type PtaskPlatform is access taskPlatform;
+
+    procedure FreeS is new Ada.Unchecked_Deallocation(taskSwitch, PtaskSwitch);
+    procedure FreeL is new Ada.Unchecked_Deallocation(taskLine, PtaskLine);
+    procedure FreeP is new Ada.Unchecked_Deallocation(taskPlatform, PtaskPlatform);
+
+begin
+    null;
+
+end Utils;
+
+

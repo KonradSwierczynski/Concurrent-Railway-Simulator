@@ -1,0 +1,72 @@
+V "GNAT Lib v7"
+M P W=b
+P SS ZX
+
+RN
+RV SPARK_05
+
+U zadanie%b		zadanie.adb		323ac5b2 NE OO SU IL
+W master%s		master.adb		master.ali
+
+D ada.ads		20171128202554 76789da1 ada%s
+D a-charac.ads		20171128202554 2d3ec45b ada.characters%s
+D a-chlat1.ads		20171128202554 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20171128202554 61e5e089 ada.containers%s
+D a-conhel.ads		20171128202554 20298884 ada.containers.helpers%s
+D a-coinve.ads		20171128202554 b7300cfa ada.containers.indefinite_vectors%s
+D a-except.ads		20171128202554 291912d5 ada.exceptions%s
+D a-finali.ads		20171128202554 bf4f806b ada.finalization%s
+D a-iteint.ads		20171128202554 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20171128202554 119b8fb3 ada.streams%s
+D a-string.ads		20171128202554 90ac6797 ada.strings%s
+D a-strmap.ads		20171128202554 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20171128202554 ecdfa332 ada.strings.unbounded%s
+D a-tags.ads		20171128202554 01f5e3ef ada.tags%s
+D a-unccon.ads		20171128202554 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20171128202554 f15a5ed1 ada.unchecked_deallocation%s
+D interfac.ads		20171128202555 5ab55268 interfaces%s
+D i-c.ads		20171128202555 5421119b interfaces.c%s
+D master.ads		20170612101141 38a5cf34 master%s
+D model.ads		20170612104323 ced9b3e3 model%s
+D system.ads		20171128202555 4635ec04 system%s
+D s-atacco.ads		20171128202555 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20171128202555 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20171128202555 54135002 system.exception_table%s
+D s-finmas.ads		20171128202555 7811a767 system.finalization_masters%s
+D s-finroo.ads		20171128202555 4ff27390 system.finalization_root%s
+D s-linux.ads		20171128202555 2fda6ad1 system.linux%s
+D s-multip.ads		20171128202555 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20171128204711 7b5577db system.os_constants%s
+D s-osinte.ads		20171128202555 ad16bc4a system.os_interface%s
+D s-parame.ads		20171128202555 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20171128202555 ede33ef8 system.pool_global%s
+D s-secsta.ads		20171128202555 9751b57e system.secondary_stack%s
+D s-soflin.ads		20171128202555 14e1eb6c system.soft_links%s
+D s-stache.ads		20171128202555 a37c21ec system.stack_checking%s
+D s-stausa.ads		20171128202555 017a0a05 system.stack_usage%s
+D s-stalib.ads		20171128202555 09bd3940 system.standard_library%s
+D s-stoele.ads		20171128202555 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20171128202555 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20171128202555 b16154c2 system.storage_pools%s
+D s-stposu.ads		20171128202555 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20171128202555 aedef97e system.stream_attributes%s
+D s-tasinf.ads		20171128202555 2b3f8252 system.task_info%s
+D s-taspri.ads		20171128202555 e3ab4429 system.task_primitives%s
+D s-taskin.ads		20171128202555 05d6152c system.tasking%s
+D s-taprob.ads		20171128202555 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20171128202555 60ad3dae system.tasking.protected_objects.entries%s
+D s-traent.ads		20171128202555 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20171128202555 34867c83 system.unsigned_types%s
+D zadanie.adb		20170603170652 0a9f0a86 zadanie%b
+X 9 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[6|75]>
+X 19 master.ads
+6K9*Master 66e11 50|1w6 1r18 5r5
+8U15*Main 50|5s12
+X 36 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 50 zadanie.adb
+3U11*zadanie 3b11 6l5 6t12
+

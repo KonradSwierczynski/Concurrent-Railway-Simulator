@@ -1,0 +1,158 @@
+ 3  3  0  2
+Finished reading switches
+Finished reading lines
+Finished reading platforms
+ 180  99  3 1
+ 1  2  3 1 1
+ 2  3  3 1 2
+ 3  1  3 1 3
+ 170  88  3 2
+ 3  1  3 2 1
+ 1  2  3 2 2
+ 2  3  3 2 3
+Reading finished
+Preparation finished
+Train  1 started
+Train  1 => Line  1
+Train  2 started
+Train  2 => Line  3
+RepairMessage -> trainId 1 elemId  1
+[2J---Menu---
+[1] Zdarzenia dla wszystkich pociagów
+[2] Zdarzenia dla pociągu nr
+[3] Wszystkie zdarzenia
+Repair Vehicle started
+Waiting for message
+Line no  1 broken
+Recived repair message
+Train  999 => Switch  1
+Appending switches  1
+Train  999 => Switch  2
+Appending switches  2
+Train  999 => Switch  3
+Appending switches  3
+Train  999 => Line  2
+Free switches:
+ 1 
+ 2 
+ 3 
+Free lines:
+ 2
+
+Allocated elements
+End dijkstra
+Test: 
+ 1  0  998
+ 2  1  1
+ 3  0  998
+
+Route counted
+
+Route
+ 1  998  0
+Path selected
+line:  1
+switch:  1
+Freed unused
+go and repair
+reaired
+Deallocating line 1
+Deallocatin switch 1
+Back in home
+Waiting for message
+Train  1 => Switch  2
+Train  2 => Switch  1
+Train  2 => Line  1
+Train  1 => Line  2
+Train  2 => Switch  2
+Train  1 => Switch  3
+Train  1 => Line  3
+Train  1 => Switch  1
+Train  1 => Line  1
+Train  2 => Line  2
+RepairMessage -> trainId 1 elemId  1
+Line no  1 broken
+Recived repair message
+Train  999 => Switch  1
+Appending switches  1
+Train  999 => Switch  2
+Appending switches  2
+Train  999 => Switch  3
+Appending switches  3
+Train  999 => Line  1
+Train  999 => Line  3
+Free switches:
+ 1 
+ 2 
+ 3 
+Free lines:
+ 1
+ 3
+
+Allocated elements
+End dijkstra
+Test: 
+ 1  0  998
+ 2  1000  1000
+ 3  0  998
+
+Route counted
+
+Route
+ 1  998  0
+Path selected
+line:  1
+switch:  1
+Freed unused
+go and repair
+reaired
+Deallocating line 1
+Deallocatin switch 1
+Back in home
+Waiting for message
+Train  1 => Switch  2
+Train  2 => Switch  3
+Train  2 => Line  3
+Train  2 => Switch  1
+Train  2 => Line  1
+Train  1 => Line  2
+Train  2 => Switch  2
+Train  1 => Switch  3
+Train  1 => Line  3
+RepairMessage -> trainId 1 elemId  1
+Line no  1 broken
+Recived repair message
+Train  999 => Switch  1
+Appending switches  1
+Train  999 => Switch  3
+Appending switches  3
+Train  999 => Line  1
+Train  999 => Line  2
+Free switches:
+ 1 
+ 3 
+Free lines:
+ 1
+ 2
+
+Allocated elements
+End dijkstra
+Test: 
+ 1  0  998
+ 2  1  3
+ 3  0  998
+
+Route counted
+
+Route
+ 1  998  0
+Path selected
+line:  1
+switch:  1
+Freed unused
+go and repair
+reaired
+Deallocating line 1
+Train  2 => Line  2
+Train  2 => Switch  3
+RepairMessage -> trainId 1 elemId  1

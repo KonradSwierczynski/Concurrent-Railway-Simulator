@@ -1,0 +1,303 @@
+V "GNAT Lib v7"
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DELAY
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RELATIVE_DELAY
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_ALLOCATORS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_TASK_ENTRIES=3
+RV MAX_TASKS=1+
+
+U jobsgenerator%b	jobsgenerator.adb	aaf310e8 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.containers.vectors%s
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W master%s		master.adb		master.ali
+W model%s		model.ads		model.ali
+Z system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+U jobsgenerator%s	jobsgenerator.ads	e38a377b EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20171128202554 76789da1 ada%s
+D a-calend.ads		20171128202554 2d5f01d4 ada.calendar%s
+D a-caldel.ads		20171128202554 9f20b83d ada.calendar.delays%s
+D a-charac.ads		20171128202554 2d3ec45b ada.characters%s
+D a-chlat1.ads		20171128202554 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20171128202554 61e5e089 ada.containers%s
+D a-cgarso.ads		20171128202554 9129bfa8 ada.containers.generic_array_sort%s
+D a-conhel.ads		20171128202554 20298884 ada.containers.helpers%s
+D a-coinve.ads		20171128202554 b7300cfa ada.containers.indefinite_vectors%s
+D a-convec.ads		20171128202554 7e2b0fdf ada.containers.vectors%s
+D a-convec.adb		20171128202554 1450cb2b ada.containers.vectors%b
+D a-except.ads		20171128202554 291912d5 ada.exceptions%s
+D a-finali.ads		20171128202554 bf4f806b ada.finalization%s
+D a-inteio.ads		20171128202554 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20171128202554 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20171128202554 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20171128202554 bb51c45a ada.numerics%s
+D a-nudira.ads		20171128202554 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20171128202554 72908cdb ada.numerics.discrete_random%b
+D a-reatim.ads		20171128202554 a87e2da7 ada.real_time%s
+D a-stream.ads		20171128202554 119b8fb3 ada.streams%s
+D a-string.ads		20171128202554 90ac6797 ada.strings%s
+D a-strmap.ads		20171128202554 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20171128202554 ecdfa332 ada.strings.unbounded%s
+D a-tags.ads		20171128202554 01f5e3ef ada.tags%s
+D a-textio.ads		20171128202554 386df5d4 ada.text_io%s
+D a-tiinio.ads		20171128202554 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20171128202554 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20171128202554 f15a5ed1 ada.unchecked_deallocation%s
+D interfac.ads		20171128202555 5ab55268 interfaces%s
+D i-c.ads		20171128202555 5421119b interfaces.c%s
+D i-cstrea.ads		20171128202555 e53d8b8e interfaces.c_streams%s
+D jobsgenerator.ads	20170611165119 12d069aa jobsgenerator%s
+D jobsgenerator.adb	20170612131135 8fb72bd5 jobsgenerator%b
+D master.ads		20170612101141 38a5cf34 master%s
+D model.ads		20170612104323 ced9b3e3 model%s
+D system.ads		20171128202555 4635ec04 system%s
+D s-atacco.ads		20171128202555 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20171128202555 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20171128202555 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20171128202555 0b705ca5 system.concat_3%s
+D s-conca4.ads		20171128202555 7e642b20 system.concat_4%s
+D s-crtl.ads		20171128202555 0ebbdb71 system.crtl%s
+D s-exctab.ads		20171128202555 54135002 system.exception_table%s
+D s-ficobl.ads		20171128202555 078245e4 system.file_control_block%s
+D s-finmas.ads		20171128202555 7811a767 system.finalization_masters%s
+D s-finroo.ads		20171128202555 4ff27390 system.finalization_root%s
+D s-imgint.ads		20171128202555 02dbe0c2 system.img_int%s
+D s-imguns.ads		20171128202555 9ff43cf7 system.img_uns%s
+D s-linux.ads		20171128202555 2fda6ad1 system.linux%s
+D s-multip.ads		20171128202555 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20171128204711 7b5577db system.os_constants%s
+D s-osinte.ads		20171128202555 ad16bc4a system.os_interface%s
+D s-parame.ads		20171128202555 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20171128202555 ede33ef8 system.pool_global%s
+D s-rannum.ads		20171128202555 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20171128202555 20ba1217 system.random_numbers%b
+D s-ransee.ads		20171128202555 01a57b33 system.random_seed%s
+D s-secsta.ads		20171128202555 9751b57e system.secondary_stack%s
+D s-soflin.ads		20171128202555 14e1eb6c system.soft_links%s
+D s-stache.ads		20171128202555 a37c21ec system.stack_checking%s
+D s-stausa.ads		20171128202555 017a0a05 system.stack_usage%s
+D s-stalib.ads		20171128202555 09bd3940 system.standard_library%s
+D s-stoele.ads		20171128202555 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20171128202555 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20171128202555 b16154c2 system.storage_pools%s
+D s-stposu.ads		20171128202555 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20171128202555 aedef97e system.stream_attributes%s
+D s-tasinf.ads		20171128202555 2b3f8252 system.task_info%s
+D s-taspri.ads		20171128202555 e3ab4429 system.task_primitives%s
+D s-taprop.ads		20171128202555 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20171128202555 05d6152c system.tasking%s
+D s-taprob.ads		20171128202555 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20171128202555 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20171128202555 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20171128202555 5a53a7c6 system.tasking.stages%s
+D s-traent.ads		20171128202555 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20171128202555 34867c83 system.unsigned_types%s
+D s-valuns.ads		20171128202555 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20171128202555 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 33|1r6 34|3r6 4r6 4r31 5r6 5r23 6r6 6r34 10r33 177r38
+X 6 a-contai.ads
+16K13*Containers 24e19 34|6r10 6r38
+20I9*Count_Type<integer>
+X 9 a-coinve.ads
+57R9*Vector<13|43R9>
+66R9*Cursor
+100V13*Length{6|20I9} 34|88s63[36|10] 107s68[36|10] 108s76[36|10] 110s71[36|10]
+. 111s84[36|10]
+149V13*Element{integer} 34|91s41[36|10]
+234U14*Append 34|47s28[36|9] 58s28[36|9] 63s28[36|9] 74s28[36|9] 244s35[36|9]
+. 249s45[36|9] 258s26[36|54]
+284V13*Last_Element{string} 34|48s37[36|9] 60s37[36|9] 65s37[36|9] 76s37[36|9]
+322V13*Iterate{16|32C9[75[36|10]]} 34|90s51[36|10]
+X 10 a-convec.ads
+46k24*Vectors 518e27 34|6w21
+X 14 a-inteio.ads
+18K13*Integer_Text_IO[27|46] 34|4w10 4r35
+X 16 a-iteint.ads
+24h9 Forward_Iterator
+32h9*Reversible_Iterator<24R9[9|75[36|10]]>
+32C9*Reversible_Iterator<32R9[9|75[36|10]]>
+X 17 a-numeri.ads
+16K13*Numerics 32e17 34|3r10 10r37
+X 18 a-nudira.ads
+44k22*Discrete_Random 75e33 34|3w19 10r46
+50R9 Generator<56|63R9> 34|12r30[10]
+52V13 Random{integer} 34|15s29[10]
+X 19 a-nudira.adb
+53V16 Random[56|83]{integer} 57|392b13[34|10]
+X 26 a-textio.ads
+49K13*Text_IO 471e16 34|5w10 5r27
+263U14*Put_Line 34|36s13 45s13 48s13 60s13 65s13 76s13 86s13 89s17 92s21
+. 94s25 96s25 99s21 103s13 123s13 125s13 127s13 135s13 147s13 156s13 193s13
+. 208s13 210s13 212s13 215s13 217s13 221s13 223s13
+X 29 a-uncdea.ads
+20u15*Unchecked_Deallocation 33|1w10 34|177r42
+X 30 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 33 jobsgenerator.ads
+3K9*JobsGenerator 9l5 9e18 34|8b14 269l5 269t18
+4T15*JobMaster 5l9 5e18 7r31 34|9b15 267l9 267t18
+7P10*PJobMaster(4T15)
+X 34 jobsgenerator.adb
+10K17 Rand_Int[18|44] 12r21 15r20
+12r9 generator{18|50R9[10]} 15r36
+13V18 randInt{35|39I13} 13b18 13>27 16l13 16t20 238s25 246s30
+13i27 max{35|39I13} 15r51
+20T19 JobTask 31l13 31e20 32b19 79l13 79t20 176r33 177r65 240r35
+21Y19 setGroups 22>17 23>17 37b20 43l17 43t26 259s32
+22i17 nooGroups{integer} 41r35
+23p17 jobLogStruct{36|52P10} 42r30
+25Y19 report 26>17 51b24 55l21 55t27 218s22
+26i17 nr{integer}
+28Y19 reportOff 29>17 67b24 71l21 71t30 220s22
+29i17 nr{integer}
+33i13 numberOfGroups{integer} 41m17 45r45 50r25 66r25
+34p13 logStruct{36|52P10} 42m17 47r13 48r22 58r13 60r22 63r13 65r22 74r13
+. 76r22 78r13
+38i17 nooGroups{integer}
+39p17 jobLogStruct{36|52P10}
+50i17 I{integer}
+52i21 nr{integer}
+66i17 I{integer}
+68i21 nr{integer}
+81U19 GoByTrain 81b19 81>31 81>39 81>52 81>72 174l13 174t22 213s13 224s13
+81i31 source{integer} 88r48 107r53 130r34
+81i39 destination{integer} 93r32 112r49 142r38 169r38
+81i52 logID{integer}
+81p72 logStruct{36|52P10}
+82i13 train1{integer} 95m25 103r64 106r16 113m37 129r32 141r36 151r36
+82i21 train2{integer} 115m37 162r36 168r36
+82i29 layover{integer} 114m37 139r16 152r38 163r38
+83i13 temp{integer} 129m17 130r27 141m21 142r31 151m21 152r31 162m21 163r31
+. 168m21 169r31
+83i19 temp1{integer}
+83i26 temp2{integer} 91m21 92r52 93r24
+83i33 K{integer} 109m25 110r61 114r48
+83i36 I{integer} 86r36 87m13 87r18 103r36 104m13 104r18 123r36 124m13 124r18
+. 135r36 136m13 136r18 147r36 148m13 148r18 156r36 157m13 157r18
+84i13 maxId{natural}
+88i17 trainID{integer} 90r33 95r35
+90i21 c{any type} 91r49
+107i21 train1ID{integer} 108r57 109r37 113r47
+108i25 station1ID{integer} 109r56
+110i29 train2ID{integer} 111r65 115r47
+111i33 station2ID{integer} 112r36
+176P14 PJobTask(20T19) 177r74 181r36 189r24 195r36 231r22
+177U19 FreeJobTask[29|20]
+179T19 GroupTask 187l13 187e22 188b19 227l13 227t22 251r38
+180Y19 setJobTask 181>17 182>17 183>17 184>17 185>17 194b20 206l17 206t27
+. 253s36
+181p17 jobTaskMaster{176P14} 201r29
+182i17 source{integer} 202r22
+183i17 destination{integer} 203r22
+184i17 id{integer} 204r26
+185p17 jobLogStruct{36|52P10} 205r30
+189p13 jobTaskM{176P14} 201m17 218r13 220r13
+190i13 s{integer} 202m17 208r47 213r33 218r29 220r32 224r36
+190i16 d{integer} 203m17 208r72 213r45 224r23
+190i19 logID{integer} 204m17 213r48 224r48
+191p13 logStruct{36|52P10} 205m17 213r55 224r55
+195p17 jobTaskMaster{176P14}
+196i17 source{integer}
+197i17 destination{integer}
+198i17 id{integer}
+199p17 jobLogStruct{36|52P10}
+229i9 temp{35|39I13} 236m13 237r16 238m17 243r41 253r62
+229i15 temp1{35|39I13} 246m21 247r24
+230i9 groups{integer} 239m17 248m25 248r35 253r68 257r20 259r42
+231p9 tmpJobTask{176P14} 240m17 253r47 259r21
+232p9 jobLogStruct{36|52P10} 241m17 242r17 243r17 244r17 249r25 253r76 258r33
+. 259r50
+245i21 I{integer} 249r77 253r59
+251t29 groupT{179T19} 253r29
+X 35 master.ads
+6K9*Master 34|2w6 2r18 35|66e11
+39I13*SIZE{integer} 34|10r62 13r36 13r49 229r22
+57i28*nooPlatforms{integer} 34|245r29
+57i42*nooStations{integer} 34|238r33
+61a5*platforms(36|49P10) 34|213r23 224r26
+62a5*trains(36|50P10) 34|90r26 108r50 109r30 111r58 129r25 141r29 151r29
+. 162r29 168r29
+63a5*stations(36|51P10) 34|88r39 107r44 110r52
+64r5*jobs{9|57R9[36|54]} 34|258m21 258r21
+X 36 model.ads
+6K9*model 34|1w6 1r17 36|63e10
+10K13*IntVectors[9|46] 34|91r30
+22i9*station{integer} 34|213r36 224r39
+27r9*trains{9|57R9[10]} 34|88r56 107r61 110r64
+30R10*JobStruct 34|241r37 36|35e15
+31b9*finished{boolean} 34|78m23 242m30
+32r9*logs{9|57R9[9]} 34|47m23 48r32 58m23 60r32 63m23 65r32 74m23 76r32 244m30
+33r9*groups{9|57R9[9]} 34|249m38
+34i9*station{integer} 34|243m30
+41r9*stations{9|57R9[10]} 34|90r42 108r67 109r47 111r75
+44i9*lastStation{integer} 34|129r40 141r44 151r44 162r44 168r44
+49P10*PPlatform(20R10)
+50P10*PTrain(37R10)
+51P10*PStation(25R10)
+52P10*PJobStruct(30R10) 34|23r35 34r25 39r35 81r87 185r35 191r25 199r35 232r24
+X 56 s-rannum.ads
+75V13*Random{30|74M9} 57|221i21
+76V13*Random{30|77M9} 57|221i21
+X 62 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+
